@@ -415,7 +415,7 @@ bool Level::check_player_key_collision(Player *player, Key *key){
 }
 
 bool Level::check_player_gate_collision(Player *player, Gate *gate){
-	//Closest point on collision box
+/*	//Closest point on collision box
 	double cX, cY;
 
 	double g_x_1 = gate->get_x_1, g_y_1 = gate->get_y_1, g_x_2 = gate->get_x_2, g_y_2 = gate->get_y_2;
@@ -472,7 +472,7 @@ bool Level::check_player_gate_collision(Player *player, Gate *gate){
 		}
 	}
 
-	//If the shapes have not collided
+	//If the shapes have not collided*/
 	return false;
 }
 
